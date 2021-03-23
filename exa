@@ -11,7 +11,10 @@ Display Options
 -x, --across: sort the grid across, rather than downwards
 --colo[u]r: when to use terminal colours
 --colo[u]r-scale: highlight levels of file sizes distinctly
+
+
 Filtering Options
+
 -a, --all: show hidden and 'dot' files
 -d, --list-dirs: list directories like regular files
 -L, --level=(depth): limit the depth of recursion
@@ -27,37 +30,20 @@ Long View Options
 These options are available when running with --long (-l):
 
 -b, --binary: list file sizes with binary prefixes
-
 -B, --bytes: list file sizes in bytes, without any prefixes
-
 -g, --group: list each file's group
-
 -h, --header: add a header row to each column
-
 -H, --links: list each file's number of hard links
-
 -i, --inode: list each file's inode number
-
 -m, --modified: use the modified timestamp field
-
 -S, --blocks: list each file's number of file system blocks
-
 -t, --time=(field): which timestamp field to use
-
 -u, --accessed: use the accessed timestamp field
-
 -U, --created: use the created timestamp field
-
 -@, --extended: list each file's extended attributes and sizes
-
 --git: list each file's Git status, if tracked or ignored
-
 --time-style: how to format timestamps
-
 Valid --color options are always, automatic, and never.
-
 Valid sort fields are accessed, created, extension, Extension, inode, modified, name, Name, size, type, and none. Fields starting with a capital letter sort uppercase before lowercase. The modified field has the aliases date, time, and newest, while its reverse has the aliases age and oldest.
-
 Valid time fields are modified, accessed, and created.
-
 Valid time styles are default, iso, long-iso, and full-iso.
