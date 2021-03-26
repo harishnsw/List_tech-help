@@ -1,0 +1,87 @@
+
+#Fix broken installs ex: zoom 
+sudo apt --fix-broken install
+
+#VPN Unlimited
+Download .deb and install. Errors
+sudo apt install wireguard
+sudo apt --fix-broken install
+install .deb
+
+#Brightness
+xbacklight -20     OR   xbacklight +10
+
+ElementaryOS =  wingpanel
+
+
+#Firefox
+sudo apt-get update
+sudo apt install firefox
+
+#Pulse Audio   https://linuxhint.com/pulse_audio_sounds_ubuntu/
+ sudo apt install pulseaudio
+ sudo apt install pavucontrol
+  
+ #spotify 
+ snap install spotify
+ 
+#Install .deb packages
+sudo dpkg -i package_file.deb
+
+#apt-get
+sudo apt-get install software-properties-common
+sudo apt-get update
+
+#  Install snapd:
+sudo apt update
+sudo apt-get install snapd
+sudo apt install snapd
+
+# nodejs
+sudo snap install node --classic
+
+#Brave Browser
+sudo apt install apt-transport-https curl gnupg
+curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo apt update
+sudo apt install brave-browser
+
+#Brightness Control
+$ sudo add-apt-repository ppa:apandada1/brightness-controller
+$ sudo apt-get update
+$ sudo apt-get install brightness-controller
+
+
+#Download .deb from Discord
+- install Gdebi from Software center
+- double click on .deb (discord)
+- installs but error in console ' unable to initialize frontend: Gnome'
+
+#Telegram 
+sudo apt install telegram-desktop
+
+#Android Studio
+-- launch AVD pixel 4 error : : /dev/kvm device permission denied
+sudo apt install qemu-kvm 
+Add your user to kvm group using:   sudo adduser <username> kvm
+If still showing permission denied: sudo chown <Replace with username> /dev/kvm
+
+
+##kill select window of program
+sudo apt-get install xorg-xkill
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+****   #Remove Snaps
+snap list
+sudo snap remove <package>
+sudo rm -rf /var/cache/snapd/
+
+***** Problems
+-- screen flickers
+---  GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_backlight=vendor"   (Dont use)
+
+
+   
+ 
