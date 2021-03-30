@@ -1,4 +1,12 @@
 
+#For Ubuntu 20.04 TouchPad :
+For my Lenovo IdeaPad 5 15IIL05 - i5-1035G1 Michael Reutman's (mreutman) solution in launchpad worked like a charm. I had to:
+Edit /etc/default/grub (with nano /etc/default/grub) and change the following line as shown:
+GRUB_CMDLINE_LINUX_DEFAULT="i8042.nopnp=1 pci=nocrs quiet splash"
+Update GRUB:
+update-grub
+Reboot.
+
 #Fix broken installs ex: zoom 
 sudo apt --fix-broken install
 
