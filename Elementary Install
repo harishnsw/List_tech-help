@@ -54,9 +54,8 @@ $ sudo apt-get install brightness-controller
 
 
 #Download .deb from Discord
-- install Gdebi from Software center
-- double click on .deb (discord)
-- installs but error in console ' unable to initialize frontend: Gnome'
+- sudo snap install discord (Ubuntu )
+- install Gdebi from Software center + .deb (discord) - installs but error in console ' unable to initialize frontend: Gnome'
 
 #Telegram 
 sudo apt install telegram-desktop
