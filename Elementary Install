@@ -1,8 +1,8 @@
 
 #Calander gnome fix
-- Kept asking for google pwd
-- https://security.google.com/settings/security/apppasswords
-- https://askubuntu.com/questions/967137/calendar-constantly-requiring-google-authentication-on-17-10
+ Kept asking for google pwd
+ https://security.google.com/settings/security/apppasswords
+ https://askubuntu.com/questions/967137/calendar-constantly-requiring-google-authentication-on-17-10
 
 #For Ubuntu 20.04 TouchPad :
 For my Lenovo IdeaPad 5 15IIL05 - i5-1035G1 Michael Reutman's (mreutman) solution in launchpad worked like a charm. I had to:
