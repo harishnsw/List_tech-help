@@ -1,0 +1,12 @@
+Default apps : mimetypes/formats
+File /etc/gnome/defaults.list are overriden by ~/.local/share/applications/mimeapps.list 
+
+[Default Applications]
+image/vnd.adobe.photoshop=wine-extension-8bs.desktop
+In this example i've set to open .psd in a Photoshop through Wine. If i go in to /etc/gnome/defaults.list and add:
+
+image/vnd.adobe.photoshop=gimp.desktop
+It won't open .psd in a gimp, because it got overriden by mimeapps.list.
+
+
+
